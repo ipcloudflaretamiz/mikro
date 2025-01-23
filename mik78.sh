@@ -6,7 +6,7 @@ echo "=== https://github.com/ipcloudflaretamiz ==="
 echo "=== MikroTik 7 Installer ==="
 echo
 sleep 3
-wget https://download.mikrotik.com/routeros/7.16.1/chr-7.16.1.img.zip -O chr.img.zip  && \
+wget https://download.mikrotik.com/routeros/7.17/all_packages-arm-7.17.zip -O chr.img.zip  && \
 gunzip -c chr.img.zip > chr.img  && \
 STORAGE=`lsblk | grep disk | cut -d ' ' -f 1 | head -n 1` && \
 echo STORAGE is $STORAGE && \
