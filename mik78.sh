@@ -1,8 +1,6 @@
 #!/bin/bash -e
 
 echo
-echo "=== ipcloudflaretamiz.org ==="
-echo "=== https://github.com/ipcloudflaretamiz ==="
 echo "=== MikroTik 7 Installer ==="
 echo
 sleep 3
